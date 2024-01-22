@@ -53,7 +53,7 @@ nav {
     left: 0;
     z-index: 1;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     background-color: var(--bg-color);
@@ -63,6 +63,7 @@ nav {
 
   nav h1 {
     color: var(--primary-color);
+    
   }
   
   nav a {
@@ -75,8 +76,8 @@ nav {
   }
   
   nav ul {
-    display: flex;
-    gap: 1.9rem;
+    display:flex;
+    gap: 2rem;
   }
   
   nav ul li {
@@ -176,7 +177,7 @@ nav {
   .projects {
     background-color: var(--bg-color);
     padding: 32px 0;
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
   
   .project-pic {
@@ -185,8 +186,8 @@ nav {
   }
   
   .projects-container {
-    display: flex;
-    align-items: center;
+    display:flex;
+    align-items:start;
     justify-content: center;
   }
   .projects-title {
@@ -352,7 +353,7 @@ nav {
 h1 {
   text-align: center;
   color: #333;
-}
+} 
 
 .bullet-points {
   list-style-type: disc; /* Use 'circle' or 'square' for different bullet styles */
